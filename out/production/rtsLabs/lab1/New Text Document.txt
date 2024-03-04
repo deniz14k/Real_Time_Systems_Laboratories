@@ -1,0 +1,27 @@
+4)
+In oop, a class is a template for creating objects.
+It defines the properties (attributes) and behaviors(methods) that the objects of the class will have .
+A class is made up of variables and methods.
+Variables represent the data , and the methods represent the operations that can be performed on the data within the class.
+
+
+5)
+A constructor is a special method in a class that is automatically called when an object of that class is created.
+Its purpose is to initialize the object's state, typically by assigning values to the object's fields .
+Constructors have the same name as the class and do not have a return type. They play a crucial role in the process of object instantiation.
+
+
+
+6)
+In java we have 4 types of acces modifiers: 
+  
+	1) public ->  variables, methods, classes are accesible from any other class.
+
+	2) private -> variables, methods, classes are only accesbile within the class to which they belong.
+		       -> they are not accesible from outside the class.
+
+	3) protected -> members declared as protected are accessible within the same package and by subclasses.
+	             -> they are not accessible from outside the package.
+
+	4) package(default) -> if no access modifier is specified, it is considered as the default.
+	                    -> the members are accessible within the same package but not from outside the package.
