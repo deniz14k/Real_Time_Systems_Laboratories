@@ -25,7 +25,12 @@ public class Fir extends Thread {
 
         while(c<1000){
             for(int j=0;j<this.processorLoad;j++) {
-                j++;
+                j++;j--;
+            }
+            try {
+                Thread.sleep(50);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
             }
             c++;
             this.win.setProgressValue(id, c);
